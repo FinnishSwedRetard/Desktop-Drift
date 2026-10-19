@@ -11,11 +11,11 @@ Otherwise i would have done it myself but oh well, at least i made the sprites r
 Well its a little game inspired by desktop goose, ie you drive on your screen.
 But! made so that you can play it even when .exe files are blocked or your school chromebook
 
-## To play this you might need
+## To run from source you need
 - Windows
 - Python 3
-- The libraries listed in `requirements.txt`
-- The asset files included in the `Assets/` folder
+- The libraries listed in `Car Game/requirements.txt`
+- The asset files included in `Car Game/Assets/`
 
 ## Controlls
 
@@ -33,8 +33,16 @@ Driving
 
 ## How to Install and Run
 
-This game is made for Windows 11. School computers may have different restrictions or Python installations so it might be a bit tricky if you arent that tecksavy. 
-If that is the case i bet you have sombody in your class who is, ask them to help
+The easiest way to play is to download `Desktop-Drift.exe` from the [latest release](https://github.com/FinnishSwedRetard/Desktop-Drift/releases/latest) and double-click it. The game and its requirements are included, so you do not need to install Python or anything else.
+
+If your computer blocks `.exe` files, or you want to run the game from source, install Python 3 and run these commands from the repository folder:
+
+```powershell
+python -m pip install -r "Car Game/requirements.txt"
+python "Car Game/desktop_drift.py"
+```
+
+School computers may have different restrictions or Python installations, so it might be a bit tricky if you aren't that tech-savvy. If that is the case, ask someone in your class who is to help.
 
 ![Step 1](GuidePics/Step1.png)
 ![Step 2](GuidePics/Step2.png)
