@@ -36,10 +36,14 @@ Driving
 This game is made for Windows 11. School computers may have different restrictions or Python installations so it might be a bit tricky if you arent that tecksavy. 
 If that is the case i bet you have sombody in your class who is, ask them to help
 
-
-
-
-
+![Step 1](GuidePics/Step1.png)
+![Step 2](GuidePics/Step2.png)
+![Step 3](GuidePics/Step3.png)
+![Step 4](GuidePics/Step4.png)
+![Step 5](GuidePics/Step5.png)
+![Step 6](GuidePics/Step6.png)
+![Step 7](GuidePics/Step7.png)
+![Step 8](GuidePics/Step8.png)
 
 Hears the car sprite i used
 https://vinchy007.itch.io/3d-pixelart-cars
