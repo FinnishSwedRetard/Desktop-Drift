@@ -44,14 +44,81 @@ python "Car Game/desktop_drift.py"
 
 School computers may have different restrictions or Python installations, so it might be a bit tricky if you aren't that tech-savvy. If that is the case, ask someone in your class who is to help.
 
+### Heres a Step by Step guide to install python if you can install it from https://www.python.org/downloads/
+
 ![Step 1](GuidePics/Step1.png)
+#
 ![Step 2](GuidePics/Step2.png)
+#
 ![Step 3](GuidePics/Step3.png)
+#
 ![Step 4](GuidePics/Step4.png)
+#
 ![Step 5](GuidePics/Step5.png)
+#
 ![Step 6](GuidePics/Step6.png)
+#
 ![Step 7](GuidePics/Step7.png)
+#
 ![Step 8](GuidePics/Step8.png)
+# nice now you have python! almost done
+now that you have python lets download the game
+## Download and Run the Game
+
+### 1. Download the game
+
+1. Go to this project's GitHub page.
+2. Click the green **Code** button.
+3. Click **Download ZIP**.
+4. Open your **Downloads** folder.
+5. Right-click the downloaded ZIP file and select **Extract All...**.
+6. Open the extracted game folder. It should contain `desktop_drift.py`, `requirements.txt`, and the `Assets` folder.
+
+
+### 2. Install the required packages
+
+1. Open the extracted game folder in File Explorer.
+2. Click the address bar at the top of the window.
+3. Type `powershell` and press **Enter**.
+4. In the PowerShell window, type this command and press **Enter**:
+
+   ```powershell
+   py -m pip install -r requirements.txt
+   ```
+
+This installs the libraries the game needs. Wait for the command to finish before moving on.
+
+If PowerShell says that `py` is not recognized, try:
+
+```powershell
+python -m pip install -r requirements.txt
+```
+
+If package installation is blocked or asks for permission you do not have, ask your school's IT staff for help. Do not try to bypass school restrictions.
+
+
+### 3. Start the game
+
+In the same PowerShell window, type:
+
+```powershell
+py desktop_drift.py
+```
+
+If that does not work, try:
+
+```powershell
+python desktop_drift.py
+```
+
+Keep the `Assets` folder next to `desktop_drift.py`. The game needs it to load the car, cone, and wall images.
+
+### Troubleshooting
+
+If the game shows an error, take a screenshot of the error message and ask someone who can help with Python. On a school computer, some installations or programs may be blocked by school policy.
+or ask microsoft copilot to help you i cant be bother explaining all of this cuz its ALOT of trubleshooting so your own your own i migth figur out somthing beter in the future
+
+
 
 Hears the car sprite i used
 https://vinchy007.itch.io/3d-pixelart-cars
