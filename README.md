@@ -53,7 +53,9 @@ If that is the case i bet you have sombody in your class who is, ask them to hel
 ![Step 7](GuidePics/Step7.png)
 #
 ![Step 8](GuidePics/Step8.png)
-#
+# nice now you have python! almost done
+now that you have python lets download the game
+
 
 Hears the car sprite i used
 https://vinchy007.itch.io/3d-pixelart-cars
